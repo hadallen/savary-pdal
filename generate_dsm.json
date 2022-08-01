@@ -1,0 +1,22 @@
+[
+    {
+        "type":"readers.las"
+    },
+    {
+        "type":"filters.reprojection",
+        "in_srs":"EPSG:6653",
+        "out_srs":"EPSG:3157"
+    },
+    {
+        "type":"filters.range",
+        "limits":"returnnumber[1:1]"
+    },
+
+    {
+        "type": "writers.gdal",
+        "output_type":"idw",
+        "gdaldriver":"COG",
+        "resolution": 0.5,
+        "radius": 1
+    }
+]
