@@ -15,7 +15,7 @@
     {
         "type": "writers.gdal",
         "output_type":"idw",
-        "gdaldriver":"COG",
+        "gdaldriver":"GTiff",
         "resolution": 0.5,
         "radius": 1
     }
