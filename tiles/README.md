@@ -4,5 +4,5 @@ These LAZ files were obtained from [LidarBC](https://www2.gov.bc.ca/gov/content/
 
 ### Edit: Aug 18 2022
 
-Due to file storage limitations and size of tiles, these are now just placeholders and must be obtained from the LidarBC database linked above.
+Due to file storage limitations and size of tiles, these are now just placeholders and must be downloaded using the links inside each file 
 
